@@ -1,7 +1,6 @@
 /* General Settings & Accessibility */
 html {
     scroll-behavior: smooth;
-    /* Prevents header from covering section titles */
     scroll-padding-top: 90px;
 }
 
@@ -31,7 +30,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allows menu to wrap on small screens */
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -52,7 +51,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero-section {
-    min-height: 100vh; /* Better than fixed height for mobile */
+    min-height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,7 +164,7 @@ h2::after {
     display: flex;
     justify-content: center;
     gap: 15px;
-    flex-wrap: wrap; /* Essential for mobile */
+    flex-wrap: wrap;
 }
 
 .contact-card {
